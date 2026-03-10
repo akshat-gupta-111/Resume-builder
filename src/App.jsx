@@ -5,25 +5,39 @@ import { Download, Plus, Trash2, Link as LinkIcon, ChevronDown, ChevronRight, Gr
 const initialData = {
   personal: {
     name: "AKSHAT GUPTA",
-    title: "ML Engineer",
+    title: "ML Engineer & Developer",
     email: "akshat.gupta_cs.aiml24@gla.ac.in",
     phone: "+91 9105211531",
     address: "Laxmi Nagar Janam Bhoomi Link Road, Mathura 281004",
   },
   socials: [
-    { name: "GitHub", url: "#" },
-    { name: "Linkedin", url: "#" },
-    { name: "LeetCode", url: "#" },
-    { name: "HackerRank", url: "#" },
-    { name: "CodeForces", url: "#" }
+    { name: "GitHub", url: "https://github.com/akshat-gupta-111" },
+    { name: "Linkedin", url: "https://www.linkedin.com/in/akshat-gupta-88b129325/" },
+    { name: "LeetCode", url: "https://leetcode.com/u/b3Smpg2aAn/" },
+    { name: "HackerRank", url: "https://www.hackerrank.com/profile/_2415500047" },
+    { name: "CodeForces", url: "https://codeforces.com/profile/akshat_gupta_111" }
   ],
   education: [
     {
-      institution: "GLA UNIVERSITY",
+      institution: "GLA UNIVERSITY, Mathura",
       degree: "Computer Science (AIML) Bachelors",
-      score: "CGPA: 9.19",
+      score: "CGPA: 9.21",
       location: "Mathura, U.P.",
       date: "August 2024 – July 2028"
+    },
+    {
+      institution: "M. P. S. M. GRACE CONVENT SR. SEC. SCHOOL",
+      degree: "Intermediate",
+      score: "90.83%",
+      location: "Mathura, U.P.",
+      date: "2023–2024"
+    },
+    {
+      institution: "M. P. S. M. GRACE CONVENT SR. SEC. SCHOOL",
+      degree: "High School",
+      score: "92.83%",
+      location: "Mathura, U.P.",
+      date: "2021–2022"
     }
   ],
   experience: [
@@ -40,54 +54,60 @@ const initialData = {
     }
   ],
   skills: [
-    { category: "Programming Languages", items: "Python, C, HTML, CSS, JS" },
-    { category: "Libraries/Frameworks", items: "scikit-learn, pandas, numpy, Flask, matplotlib, seaborn, Django Framework(Basics)" },
+    { category: "Programming Languages", items: "Python, JAVA, C, HTML, CSS, JS" },
+    { category: "Libraries/Frameworks", items: "scikit-learn, pandas, numpy, Flask, matplotlib, seaborn, Django Framework" },
     { category: "Tools & Platforms", items: "Git, Git Hub, VS Code, Azure portal, Power BI" },
-    { category: "Databases", items: "MySQL" }
+    { category: "Databases", items: "MySQL, ORM" },
+    { category: "Others", items: "IoT, Cloud, Docker & K8s(Basics), OOPs(python)" },
+    { category: "Soft Skills", items: "Communication, Leadership, Collaboration, Innovator, Pragmatic" }
   ],
   projects: [
     {
-      name: "SarvSaathi (Ongoing)",
-      tech: "Python, Django",
-      link: "#",
-      desc: "A end to end Health Care Management tool (Group project)"
+      name: "SarvSaathi",
+      tech: "Python, Django REST Framework, React",
+      link: "https://github.com/akshat-gupta-111/SarvSaathi",
+      desc: "SarvSaathi ('Universal Companion' in Hindi) is a full-stack healthcare platform that connects patients with doctors, enabling appointment booking with PayPal payments, emergency medical assistance with real-time doctor matching, and AI-powered symptom guidance."
     },
     {
-      name: "ML Projects",
-      tech: "Jupyter Notebook, Python, Flask, HTML",
-      link: "#",
-      desc: "Multiple Machine Learning projects."
+      name: "Dhruvishya Iot Based Car",
+      tech: "C/C++, Edge ML, Microcontrollers",
+      link: "https://www.linkedin.com/posts/akshat-gupta-88b129325_semiconsummit2026-semiconductors-tinyml-activity-7416483304767508481-t1Yk?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFIQ_6sBN2ZL5UOF6cbQhJfkZGw69MJiDQQ",
+      desc: "Using TinyML on an ARM Cortex-M4 (nRF52840), we developed a system that complements vision-based perception by capturing real-time road surface behavior. The Goal: Low latency and minimal memory footprint and implement Edge ML. The Training: We trained our ml model to classify road vibrations into three categories - Smooth, Rough, and Too Rough. The Impact: This allows vehicles to adjust speed dynamically based on physical road conditions, moving student-led prototypes toward IP-driven solutions in smart sensing and MEMS."
     },
     {
-      name: "Python Projects",
-      tech: "Python, CSS, HTML, Flask",
-      link: "#",
-      desc: "Multiple Python projects from basic to advance."
+      name: "TwinEngine",
+      tech: "Python, Django REST Framework, React",
+      link: "https://github.com/Amritasingh600/TwinEngine",
+      desc: "AI-Powered Digital Twin Platform for Hospitality Operations : Restaurants, cafes, and food service outlets operate complex systems involving table management, order flow, inventory, and staff coordination. Managers lack real-time visibility into operational bottlenecks and predictive insights for optimization. This project delivers an AI-powered digital twin platform that creates a virtual replica of hospitality floor operations, enabling real-time monitoring, demand forecasting, and intelligent reporting through a cloud-based system."
     },
     {
       name: "Azure-utility",
-      tech: "HTML, CSS, Python, Flask",
-      link: "#",
-      desc: "Integrated most used Azure Al services."
+      tech: "Python, Flask, Jinja2, HTML, CSS",
+      link: "https://github.com/akshat-gupta-111/Azure-utility",
+      desc: "Integrated hub for commonly used Azure AI services, consolidated into a single repository to make it easier to experiment, compare, and build end-to-end AI workflows in one place. This project provides a unified, utility-style interface (and examples) for interacting with multiple Azure AI capabilities—so you don't have to jump between separate samples or codebases—helping you quickly prototype, test, and integrate Azure AI features into your applications."
     },
-    {
-      name: "Sentiment Analysis (xgboost)",
-      tech: "Python, Streamlit",
-      link: "#",
-      desc: "A ML model trained to predict the number of star ratings by reviews."
-    }
   ],
   certifications: [
-    { name: "Microsoft Certified: Azure Fundamentals", platform: "Microsoft", link: "#" },
-    { name: "Machine Learning Specialization", platform: "Coursera | Stanford Online | Deeplearning.AI", link: "#" },
-    { name: "Version Control", platform: "Coursera | Meta", link: "#" },
-    { name: "Postman API Fundamentals Student Expert", platform: "Postman", link: "#" },
-    { name: "The Ultimate Job Ready Data Science Course", platform: "Code With Harry", link: "#" },
-    { name: "Complete 2025 Python Bootcamp: Learn Python from Scratch", platform: "Code With Harry", link: "#" }
+    { name: "Microsoft Certified: Azure AI-900", platform: "Microsoft", link: "https://www.credly.com/badges/fc66c5f1-fd93-4531-bbbe-2d018654e987/public_url" },
+    { name: "Microsoft Certified: Azure AZ-900", platform: "Microsoft", link: "https://www.credly.com/badges/ef9f5dd4-a1ca-4413-8545-0829c1475704/public_url" },
+    { name: "Machine Learning Specialization", platform: "Coursera | Stanford Online | Deeplearning.AI", link: "https://coursera.org/share/d9c85d38bdcf60f67bc8da323ef37e11" },
+    { name: "Version Control", platform: "Coursera | Meta", link: "https://www.coursera.org/account/accomplishments/verify/34U7HZ3OSTL2" },
+    { name: "Postman API Fundamentals Student Expert", platform: "Postman", link: "https://badgr.com/public/assertions/rUKPGMjNTEyQgitk7c1zEQ?identity__email=akshat.gupta_cs.aiml24%40gla.ac.in" },
+    { name: "The Ultimate Job Ready Data Science Course", platform: "Code With Harry", link: "https://drive.google.com/file/d/1zjSvipqsQyvC7mCIx973DpT_Okh5QQcw/view?usp=sharing" },
+    { name: "Complete 2025 Python Bootcamp: Learn Python from Scratch", platform: "Code With Harry", link: "https://drive.google.com/file/d/1cd4dPpci6nM4RV9YgxY1TeHOLraR9EzI/view?usp=sharing" }
   ],
   awards: [
-    "Won Venturethon 2025 at GLA University, Mathura (2nd position) [Team: Anveshan]"
+    "Silver Medalist | Venturethon 2025 (GLA University, Mathura) - Contributed as a core member of Team Anveshan, securing 2nd place in a university-wide innovation challenge. Co-developed a proposal for an Autonomous Underwater Vehicle (AUV) integrated with Machine Learning for automated subsea inspection."
   ]
+};
+
+// --- HELPER FUNCTIONS ---
+const formatURL = (url) => {
+  if (!url || url === '#') return url;
+  if (!/^https?:\/\//i.test(url)) {
+    return `https://${url}`;
+  }
+  return url;
 };
 
 // --- EDITOR UI COMPONENTS ---
@@ -157,13 +177,21 @@ export default function App() {
   const updateData = (section, index, field, value) => {
     setData(prev => {
       const newData = { ...prev };
-      if (index !== null) {
-        newData[section][index][field] = value;
-      } else if (field) {
-        newData[section][field] = value;
-      } else {
-        newData[section][index] = value; 
+      
+      if (index !== null && Array.isArray(newData[section])) {
+        const newList = [...newData[section]]; 
+        
+        if (field) {
+          newList[index] = { ...newList[index], [field]: value };
+        } else {
+          newList[index] = value;
+        }
+        newData[section] = newList;
+      } 
+      else if (field) {
+        newData[section] = { ...newData[section], [field]: value };
       }
+      
       return newData;
     });
   };
@@ -213,7 +241,6 @@ export default function App() {
     const file = event.target.files[0];
     if (!file) return;
 
-    // Reset UI states
     setErrorMsg("");
     setIsLoading(true);
 
@@ -224,7 +251,6 @@ export default function App() {
         const base64Data = reader.result.split(',')[1];
         
         // NOTE FOR LOCAL/RENDER DEPLOYMENT:
-        // When deploying to Render using Vite, replace the line below with:
         const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
         //const apiKey = ""; 
 
@@ -243,7 +269,6 @@ export default function App() {
           }
         };
 
-        // FIXED: Switched to gemini-1.5-flash which is universally available for public API keys
         const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -256,7 +281,6 @@ export default function App() {
           try {
             const extractedData = JSON.parse(result.candidates[0].content.parts[0].text);
             
-            // Safety check to merge structures and prevent undefined maps
             const mergedData = {
                personal: { ...initialData.personal, ...(extractedData.personal || {}) },
                socials: extractedData.socials || [],
@@ -270,7 +294,6 @@ export default function App() {
 
             setData(mergedData);
             
-            // Open all sections automatically so the user can see the extracted content
             setOpenSections({
               personal: true, socials: true, education: true, experience: true,
               skills: true, projects: true, certifications: true, awards: true
@@ -286,7 +309,6 @@ export default function App() {
         }
         
         setIsLoading(false);
-        // Reset file input so the same file can be selected again
         if (fileInputRef.current) fileInputRef.current.value = "";
       };
       
@@ -449,7 +471,7 @@ export default function App() {
                     </div>
                     <TextArea 
                       label="Bullets (One per line)" 
-                      value={(exp.bullets || []).join('\n')} 
+                      value={(Array.isArray(exp.bullets) ? exp.bullets : []).join('\n')} 
                       onChange={(v) => updateData('experience', i, 'bullets', v.split('\n'))} 
                     />
                   </div>
@@ -581,7 +603,7 @@ export default function App() {
             <div className="text-[10.5pt] flex flex-wrap justify-center items-center gap-x-2 mt-2">
               {data.socials?.map((link, i) => (link.name &&
                 <React.Fragment key={i}>
-                  <a href={link.url} target="_blank" rel="noreferrer" className="text-blue-700 hover:underline">{link.name}</a>
+                  <a href={formatURL(link.url)} target="_blank" rel="noreferrer" className="text-blue-700 hover:underline">{link.name}</a>
                   {i < data.socials.length - 1 && <span className="text-gray-400">|</span>}
                 </React.Fragment>
               ))}
@@ -626,7 +648,7 @@ export default function App() {
                     </div>
                     {exp.bullets && exp.bullets.length > 0 && (
                       <ul className="list-disc list-outside ml-5 space-y-1 mt-1 text-[10.5pt] text-justify">
-                        {exp.bullets.filter(b => b.trim()).map((bullet, j) => (
+                        {(Array.isArray(exp.bullets) ? exp.bullets : []).filter(b => b.trim()).map((bullet, j) => (
                           <li key={j}>{bullet}</li>
                         ))}
                       </ul>
@@ -663,7 +685,7 @@ export default function App() {
                       <div className="font-bold text-black">
                         {proj.name} 
                         {proj.link && proj.link !== '#' && (
-                           <span> | <a href={proj.link} target="_blank" rel="noreferrer" className="text-blue-700 font-normal hover:underline text-[10pt]">Link</a></span>
+                           <span> | <a href={formatURL(proj.link)} target="_blank" rel="noreferrer" className="text-blue-700 font-normal hover:underline text-[10pt]">Link</a></span>
                         )}
                       </div>
                       {proj.tech && <div className="italic text-[10.5pt] ml-4 text-right shrink-0">{proj.tech}</div>}
@@ -685,7 +707,7 @@ export default function App() {
                     {cert.name}
                     {cert.platform && (
                       <span> - {cert.link && cert.link !== '#' ? (
-                        <a href={cert.link} target="_blank" rel="noreferrer" className="text-blue-700 hover:underline">{cert.platform}</a>
+                        <a href={formatURL(cert.link)} target="_blank" rel="noreferrer" className="text-blue-700 hover:underline">{cert.platform}</a>
                       ) : (
                         cert.platform
                       )}</span>
@@ -701,7 +723,7 @@ export default function App() {
             <div className="mb-4">
               <h3 className="text-[12pt] font-bold uppercase border-b-[1.5px] border-black pb-1 mb-3">Honors & Awards</h3>
               <ul className="list-disc list-outside ml-5 space-y-1 text-[11pt]">
-                {data.awards.filter(a => a?.trim()).map((award, i) => (
+                {data.awards.filter(a => typeof a === 'string' && a.trim()).map((award, i) => (
                   <li key={i}>{award}</li>
                 ))}
               </ul>
